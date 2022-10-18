@@ -14,8 +14,11 @@ void jack_bauer(void)
 	for (; hh <= 2; hh++)
 	{
 		int h = 0;
+		int hm = 9;
 
-		for (; h <= 3; h++)
+		if (hh == 2)
+			hm = 3;
+		for (; h <= hm; h++)
 		{
 			int mm = 0;
 
