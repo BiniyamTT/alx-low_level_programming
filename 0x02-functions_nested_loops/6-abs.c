@@ -2,7 +2,7 @@
 
 /**
  * _abs - check the code
- *
+ * @n - intiger
  * Return: Always 0.
  */
 
