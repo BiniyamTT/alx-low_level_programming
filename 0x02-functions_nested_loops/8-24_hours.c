@@ -10,15 +10,19 @@
 void jack_bauer(void)
 {
 	int hh = 0;
-	for (; hh <=2; hh++)
+
+	for (; hh <= 2; hh++)
 	{
 		int h = 0;
+
 		for (; h <= 3; h++)
 		{
 			int mm = 0;
+
 			for (; mm <= 5; mm++)
 			{
 				int m = 0;
+
 				for (; m <= 9; m++)
 				{
 					_putchar('0' + hh);
