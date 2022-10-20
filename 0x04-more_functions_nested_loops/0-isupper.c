@@ -2,7 +2,7 @@
 
 /**
  * _isupper - check the code.
- *
+ * @c: ascii character
  * Return: 1 - Uppercase 0 - Otherwise.
  */
 
