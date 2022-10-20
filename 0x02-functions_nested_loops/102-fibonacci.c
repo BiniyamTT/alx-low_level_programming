@@ -5,27 +5,23 @@
  * followed by a new line
  * Return: Always 0 (Success)
  */
+
+int fib(int n)
+{
+	if (n == 0)
+		return (n+1);
+	else if (n > 0 && n <= 2)
+		return (n);
+	else
+		return fib(n-1)+fib(n-2);
+}
+
 int main(void)
 {
-	long int i, j, k, next;
+	int i = 0;
 
-	j = 1;
-
-	k = 2;
-
-	for (i = 1; i <= 50; ++i)
-	{
-		if (j != 20365011074)
-		{
-			printf("%ld, ", j);
-		} else
-		{
-			printf("%ld\n", j);
-		}
-		next = j + k;
-		j = k;
-		k = next;
-	}
-
+	for (; i <=20; i++)
+		printf("%d, ",fib(i));
+	printf("\n");
 	return (0);
 }
